@@ -1,0 +1,102 @@
+<!Doctype html>
+
+<html lang="en-Us">
+<head>
+	
+	<meta charset="Utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>  Forms </title>
+	<link rel="stylesheet" type="text/css" href="Css.css">
+	
+</head>
+
+
+	
+	
+	
+
+<body>
+
+<img class="logo" src="Images/logo.jpg" alt=" This is the Ministry of Health Logo">
+<ul class="navbar">
+
+	<li><a href="index.html">Home</a></li>
+	<li><a href="Grp_About_Us.html">About Us</a></li>
+	<li><a href="Gallery.html">Ministry Projects</a></li>
+	
+	<li><a href="Forms.html">Request for Medical Aid</a></li>
+	<li><a href="Login.html">Staff Login</a></li>
+	<li><a href="Sign_Up.html">Registration</a></li>
+	<li><a href="SupportPage.html">Support Page</a></li>
+</ul>
+
+		<section class= "Login_l">
+	
+	<form class="form_l" action="SupportPage.html">
+		<!--form elements-->
+			<h2>Request for Medical Aid Forms</h2>
+		<label for="fname"> First Name: </label>
+		<input type="text" id="fname" name="fname"><br>  <br>
+		<label for="lname"> Last Name: </label>
+		<input type="text" id="lname" name="lname"><br> <br>
+		
+		<label for="username">Username: </label>
+		<input type="text" id="username" name="username"><br><br>
+		
+		
+		
+		<label for="email">Email: </label>
+		<input type="text" id="email" name="email"><br><br>
+		
+		<label for="id">id: </label>
+		<input type="text" id="id" name="id"><br><br>
+		
+		<label for="pswd">Password: </label>
+		<input type="password" id="pswd" name="pswd"><br><br>
+		
+		<p> How can the Ministry of Health help you today</p>
+		
+		<input type="radio" id="medical_assisants" name="how_can_we_help"  value="medical_assisants">
+		<label for="medical_assisants"> Medical Assisants</label> <br>
+		
+		<input type="radio" id="Mental_health_services" name="how_can_we_help"  value="Mental_health_services">
+		<label for="Mental_health_services"> Mental health services </label> <br>
+		
+		<input type="radio" id="Medical_Financing" name="how_can_we_help"  value="Medical_Financing">
+		<label for="Medical_Financing"> Medical Financing </label> <br>
+		
+		<input type="radio" id="Chronic_Disease_Assistance_Programme" name="how_can_we_help"  value="Chronic_Disease_Assistance_Programme">
+		<label for="Chronic_Disease_Assistance_Programme"> Chronic Disease Assistance Programme </label> <br>
+		
+		<p> What Medical Facility do you frequent </p>
+		
+		<label for="Hospitals">Choose a Major Hospitals in Trinidad and Tobago:</label>
+  <select name="Hospitals" id="Hospitals">
+    <option value="Port of Spain General Hospital ">Port of Spain General Hospital </option>
+    <option value="San Fernando General Hospital ">San Fernando General Hospital </option>
+    <option value="San Fernando Teaching Hospital">San Fernando Teaching Hospital</option>
+    <option value="Sangre Grande Hospital">Sangre Grande Hospital</option>
+	<option value="Point Fortin Hospital">Point Fortin Hospital</option>
+    <option value="Eric Williams Medical Science Complex">Eric Williams Medical Science Complex</option>
+    <option value="Scarborough General Hospital">Scarborough General Hospital</option>
+    
+  </select>
+		
+		 <br><label for="review"> Review of Site </label> <br>
+		<textarea id="review" name="review" rows="5" cols="65">
+		
+		</textarea>
+		
+		<br>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Clear">
+			
+	</form>
+	</section> 
+  <footer>
+    <p>© 2024 Ministry of Health, Trinidad and Tobago. All Rights Reserved.</p>
+  </footer>
+	
+	
+</body>
+</html>
